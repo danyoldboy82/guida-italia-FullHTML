@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mappa</title>
+
+    <link rel="icon" type="image/png" href="immagini/footer_italia.avif">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Guida Interattiva all’Italia - mappa interattiva</h1>
+
+        <img src="immagini/italian-banner-symbol.png" width="100%" alt="Banner con simboli dell’Italia">
+    </header>
+
+
+    <section>
+        <h3>Contenuti del sito</h3>
+
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> - Introduzione al progetto e contenuti multimediali.</li>
+                <li><a href="mappa.html">Mappa interattiva</a> - Navigazione del territorio tramite mappa HTML.</li>
+                <li><a href="contatti.html">Contatti</a> - Modulo di contatto realizzato in HTML.</li>
+            </ul>
+        </nav>
+
+    </section>
+
+    <hr>
+
+
+
+    <h3>Regioni cliccabili</h3>
+
+    <p>
+        La mappa sottostante è realizzata utilizzando una <strong>image map HTML</strong>,
+        che consente di rendere cliccabili specifiche aree dell’immagine.
+        Ogni regione selezionata rimanda a una pagina informativa dedicata.
+    </p>
+
+
+    <ul>
+        <li>Trentino-Alto Adige</li>
+        <li>Toscana</li>
+        <li>Puglia</li>
+        <li>Sardegna</li>
+    </ul>
+
+    <img src="immagini/Italian_regions_provinces.svg" alt="Mappa Italia" usemap="#italia">
+
+
+
+    <map name="italia">
+        <area target="_blank" alt="Sardegna" title="Sardegna" href="https://it.wikipedia.org/wiki/Sardegna"
+            coords="196,1048,217,1074,244,1075,269,1075,287,1053,318,1053,338,1006,340,915,350,846,326,801,308,784,271,785,230,822,218,804,190,806,178,854"
+            shape="poly">
+        <area target="_blank" alt="Trentino Alto Adige" title="Trentino Alto Adige"
+            href="https://it.wikipedia.org/wiki/Trentino-Alto_Adige"
+            coords="404,224,390,187,404,143,385,118,392,79,447,86,517,59,562,49,564,78,577,93,582,111,533,133,533,172,515,197,506,201,481,211,463,238,439,243,451,243"
+            shape="poly">
+        <area target="_blank" alt="Toscana" title="Toscana" href="https://it.wikipedia.org/wiki/Toscana"
+            coords="490,657,456,657,402,588,368,460,335,408,350,399,388,421,473,443,486,428,518,440,538,482,569,490,542,526,559,536,528,561,533,592"
+            shape="poly">
+        <area target="_blank" alt="Puglia" title="Puglia" href="https://it.wikipedia.org/wiki/Puglia"
+            coords="843,813,811,769,813,749,826,717,916,706,924,723,899,745,912,774,971,804,1091,867,1125,910,1133,931,1118,964,1108,966,1017,894,968,890,966,858,943,856,906,826"
+            shape="poly">
+    </map>
+
+
+
+    <h3>Meteo Italia</h3>
+
+    <a href="https://www.ilmeteo.it/portale/situazione-immagini-satellite" target="_blank">
+        <img src="immagini/meteo.png" alt="Meteo Italia" width="160">
+    </a>
+
+    <p><span><img src="immagini/hand-click-icon-symbol-vector.jpg" alt="" width="32"></span> Consulta la situazione
+        meteo
+        satellitare dell’Italia </p>
+
+
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Guida Interattiva all’Italia – Progetto dimostrativo realizzato esclusivamente in HTML.
+            <br>
+            © 2026 Moruzzo Daniele
+        </p>
+        <img src="immagini/footer_italia.avif" alt="Simbolo Italia" width="50">
+    </footer>
+
+
+
+
+</body>
+
+</html>

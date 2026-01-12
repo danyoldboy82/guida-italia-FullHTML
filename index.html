@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guida Interattiva all’Italia - sito full HTML</title>
+
+
+    <link rel="icon" type="image/png" href="immagini/footer_italia.avif">
+
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <h1>Guida Interattiva all’Italia</h1>
+
+        <img src="immagini/italian-banner-symbol.png" width="100%" alt="Banner con simboli dell’Italia">
+
+    </header>
+
+    <!-- SEZIONE INTRODUZIONE -->
+    <section>
+        <h2>Benvenuto</h2>
+
+        <p>
+            La <strong>Guida Interattiva all’Italia</strong> è un mini sito informativo
+            dedicato alla scoperta del territorio italiano attraverso contenuti testuali,
+            immagini e media integrati.
+            <br>
+            Il progetto è stato realizzato <strong>esclusivamente in HTML</strong> per
+            mostrare l’utilizzo delle principali strutture semantiche, la gestione
+            della navigazione multi-pagina e l’integrazione di elementi multimediali
+            senza CSS o JavaScript.
+            <br>
+            Il sito è stato pensato principalmente per una risoluzione di 1280×720,
+            ma immagini e video sono impostati in modo da adattarsi anche ad altre dimensioni dello schermo.
+        </p>
+
+
+    </section>
+
+
+
+    <section>
+        <h3>Contenuti del sito</h3>
+
+        <p>
+            Il sito è composto da più sezioni, ciascuna dedicata a un aspetto specifico
+            del progetto e del territorio italiano.
+        </p>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> - Introduzione al progetto e contenuti multimediali.</li>
+                <li><a href="mappa.html">Mappa interattiva</a> - Navigazione del territorio tramite mappa HTML.</li>
+                <li><a href="contatti.html">Contatti</a> - Modulo di contatto realizzato in HTML.</li>
+            </ul>
+        </nav>
+
+
+    </section>
+
+    <hr>
+
+    <main>
+        <p>
+            L’Italia è un Paese ricco di paesaggi, storia e cultura, dalle montagne del Nord
+            alle coste del Sud, fino alle sue isole principali. Questo progetto permette di
+            esplorare alcune delle sue regioni attraverso immagini, video e una mappa interattiva,
+            offrendo una panoramica dei territori più rappresentativi. L’obiettivo è mostrare
+            come sia possibile organizzare e presentare contenuti multimediali in un sito
+            realizzato esclusivamente con HTML.
+        </p>
+
+    </main>
+
+
+
+
+    <!-- SEZIONE IMMAGINI -->
+    <section>
+        <h3>Galleria fotografica</h3>
+
+        <p>
+            L’Italia offre paesaggi straordinari.
+            <br>
+            Qui puoi vedere alcune immagini rappresentative delle diverse regioni.
+        </p>
+
+        <figure>
+            <img src="immagini/italia_Nord.jpg" alt="Paesaggio montano del Nord Italia" width="95%">
+            <figcaption>Paesaggi montani del Nord Italia</figcaption>
+        </figure>
+
+        <figure>
+            <img src="immagini/centro_Italia.jpg" alt="Paesaggio collinare del Centro Italia" width="95%">
+            <figcaption>Paesaggi collinari del Centro Italia</figcaption>
+        </figure>
+
+        <figure>
+            <img src="immagini/sud_italia.jpg" alt="Panorama costiero del Sud Italia" width="95%">
+            <figcaption>Panorami costieri del Sud Italia</figcaption>
+        </figure>
+
+        <figure>
+            <img src="immagini/isole_italia.jpg" alt="Veduta di un’isola italiana" width="95%">
+            <figcaption>Vedute delle isole italiane</figcaption>
+        </figure>
+    </section>
+
+    <hr>
+
+    <!-- SEZIONE VIDEO -->
+    <section>
+        <h3>Sezione Video</h3>
+
+        <p>
+            In questa sezione puoi vedere due video che mostrano diversi aspetti
+            del territorio italiano.
+            <br>
+            Il primo video è integrato direttamente nel sito, il secondo video proviene da YouTube ed è un esempio
+            di
+            contenuto esterno integrato tramite <code>&lt;iframe&gt;</code>.
+        </p>
+
+        <!-- Video locale scalabile -->
+        <video controls width="92%">
+            <source src="video/video_italia.mp4" type="video/mp4">
+            Il tuo browser non supporta il video.
+        </video>
+
+        <br><br>
+
+        <iframe width="92%" height="662" src="https://www.youtube.com/embed/M-nxhI9gq8w?si=OULQ4XnZVEvzZtD4"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+
+
+    </section>
+
+
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Guida Interattiva all’Italia – Progetto dimostrativo realizzato esclusivamente in HTML.
+            <br>
+            © 2026 Moruzzo Daniele
+        </p>
+        <img src="immagini/footer_italia.avif" alt="Simbolo Italia" width="50">
+    </footer>
+
+
+</body>
+
+</html>

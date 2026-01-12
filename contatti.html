@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contatti</title>
+
+    <link rel="icon" type="image/png" href="immagini/footer_italia.avif">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Guida Interattiva all’Italia - sezione contatti</h1>
+
+        <img src="immagini/italian-banner-symbol.png" width="100%" alt="Banner con simboli dell’Italia">
+    </header>
+
+
+    <section>
+        <h3>Contenuti del sito</h3>
+
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> - Introduzione al progetto e contenuti multimediali.</li>
+                <li><a href="mappa.html">Mappa interattiva</a> - Navigazione del territorio tramite mappa HTML.</li>
+                <li><a href="contatti.html">Contatti</a> - Modulo di contatto realizzato in HTML.</li>
+            </ul>
+        </nav>
+
+
+    </section>
+
+
+
+    <!-- INTRODUZIONE -->
+    <section>
+        <h2>Contatti</h2>
+
+        <p>
+            Questa sezione è dedicata alla raccolta di richieste, domande o suggerimenti
+            relativi alla <strong>Guida Interattiva all’Italia</strong>.
+            <br>
+            Il modulo sottostante è stato realizzato interamente in HTML,
+            utilizzando elementi standard per la gestione dei dati dell’utente.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- MODULO CONTATTO -->
+    <section>
+        <h3>Modulo di contatto</h3>
+
+        <form action="grazie.html" method="get">
+
+            <p>
+                <label for="nome">Nome</label><br>
+                <input type="text" id="nome" name="nome" size="40" required placeholder="Inserisci il tuo nome">
+            </p>
+
+            <p>
+                <label for="cognome">Cognome</label><br>
+                <input type="text" id="cognome" name="cognome" size="40" required
+                    placeholder="Inserisci il tuo cognome">
+            </p>
+
+            <p>
+                <label for="cellulare">Cellulare</label><br>
+                <input type="tel" id="cellulare" name="cellulare" size="25" required placeholder="+39 345 678 9012"
+                    pattern="^\+?\d{0,3} ?\d{3} ?\d{3} ?\d{4}$">
+            </p>
+
+            <p>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" size="40" required placeholder="nome@email.com">
+            </p>
+
+            <p>
+                <label for="oggetto">Oggetto</label><br>
+                <input type="text" id="oggetto" name="oggetto" size="50" required placeholder="Oggetto del messaggio">
+            </p>
+
+            <p>
+                <label for="messaggio">Messaggio</label><br>
+                <textarea id="messaggio" name="messaggio" rows="8" cols="60" required
+                    placeholder="Scrivi qui il tuo messaggio"></textarea>
+            </p>
+
+            <p>
+                <label for="data">Data preferita per il contatto</label><br>
+                <input type="date" id="data" name="data">
+            </p>
+
+            <p>
+                <label for="ora">Orario preferito</label><br>
+                <input type="time" id="ora" name="ora">
+            </p>
+
+            <p>
+                <input type="submit" value="Invia messaggio">
+                <input type="reset" value="Cancella">
+            </p>
+
+        </form>
+    </section>
+
+
+    <hr>
+
+    <!-- INFORMAZIONI -->
+    <section>
+        <h3>Informazioni</h3>
+
+        <p>
+            Questa pagina ha finalità dimostrative.
+            Il modulo non invia realmente i dati, ma mostra la struttura
+            e le funzionalità di un form HTML completo.
+        </p>
+
+        <ul>
+            <li>Email: <a href="mailto:daniele.moruzzo@yahoo.it">daniele.moruzzo@yahoo.it</a></li>
+            <li>Telefono: +39 0123 456789</li>
+            <li>Italia</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Guida Interattiva all’Italia – Progetto dimostrativo realizzato esclusivamente in HTML.
+            <br>
+            © 2026 Moruzzo Daniele
+        </p>
+        <img src="immagini/footer_italia.avif" alt="Simbolo Italia" width="50">
+    </footer>
+
+
+
+
+</body>
+
+</html>
